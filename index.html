@@ -5,7 +5,7 @@ title: Apache Accumulo Release Notes
             <div id="index_content">
                 <div id="release_notes">
                 {% for release_note in paginator.posts %}
-                    <div class="release_note">
+                    <div class="release_note" id="{{ release_note.version }}">
                         <div class="version">
                             <h3 class="version"><a href="{{ release_note.url }}">{{ release_note.title }}</a></h3>
                         </div>
@@ -19,8 +19,10 @@ title: Apache Accumulo Release Notes
             </div>
 
             <div id="sidebar">
-                <h3>History</h3>
+                <h3>Recent Releases</h3>
                 <ul>
-                    <li><a href="http://foo">Insert "posts" here?</a></li>
+                {% for release_note in paginator.posts %}
+                    <li><a href="#{{ release_note.version }}">{{ release_note.title }}</a></li>
+                {% endfor %}
                 </ul>
             </div>
