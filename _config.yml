@@ -1,0 +1,5 @@
+pygments: true
+baseurl: /
+url: http://localhost:4000
+permalinks: pretty
+paginate: 5

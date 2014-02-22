@@ -1,0 +1,26 @@
+---
+layout: default
+title: Apache Accumulo Release Notes
+---
+            <div id="index_content">
+                <div id="release_notes">
+                {% for post in paginator.posts %}
+                    <div class="release_note">
+                        <div class="version">
+                            <h3 class="version"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                        </div>
+
+                        <div class="content">
+                            {{ post.content }}
+                        </div>
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+
+            <div id="sidebar">
+                <h3>History</h3>
+                <ul>
+                    <li><a href="http://foo">Insert "posts" here?</a></li>
+                </ul>
+            </div>

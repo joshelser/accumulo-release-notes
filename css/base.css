@@ -1,0 +1,116 @@
+/* Main CSS */
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#header, #content {
+    min-width: 800px;
+}
+
+#content, #pagination, #footer {
+    clear: both;
+}
+
+#pagination {
+    display: inline-block;
+    max-width: 75%;
+    margin-bottom: 15px;
+}
+
+#header #title {
+    float: left;
+}
+
+#posts, #about, #footer, #pagination {
+    min-width: 600px;
+}
+
+#single_content, #index_content  {
+    width: 80%;
+}
+
+#index_content {
+    float: right;
+}
+
+#sidebar {
+    float: left;
+    width: 20%;
+    max-width: 200px;
+}
+
+#header #title h1, #header #title h1 a {
+    font-size: 34px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+#header #title h1 a:hover {
+   text-decoration: none;
+} 
+
+#footer {
+    clear: both;
+}
+
+#copyright {
+    font-size: 14px;
+    display: inline-block;
+}
+
+#license {
+    display: inline-block;
+    float: right;
+}
+
+.sidebar_content {
+    margin-left: 50px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.sidebar_content li, #pagination {
+    font-size: 12px;
+}
+
+#header a:hover, #content a, #content a:hover, #posts a:hover, .sidebar_content a:hover {
+    text-decoration: underline;
+}
+
+.border_last {
+    border: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+div.release_note {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+#footer {
+    padding-top: 10px;
+}
+
+.left {
+    float: left;
+}
+
+.pagination_links {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.right {
+    float: right;
+}
+
+.link:hover {
+    cursor: pointer;
+}

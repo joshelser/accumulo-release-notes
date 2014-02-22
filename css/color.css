@@ -1,0 +1,22 @@
+body {
+    color: #bcbcbc;
+    background-color: #353535;
+    background-image: url('http://static.penguinsinabox.com/penguinsinabox/images/bg_vertstripe.png');
+    background-repeat: no-repeat;
+}
+
+a, a:visited, div.comments h3.title {
+    color: #F0F0F0;
+}
+
+.sidebar_content, .post .pre_footer {
+    border-color: #03dde4;
+}
+
+.post .title a , #sidebar div h2 {
+    color: white;
+}
+
+.post h1, .post h2, .post h3 {
+    color: #dedede;
+}

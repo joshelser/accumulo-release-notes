@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XTHML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <title>{{ page.title }}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <link rel="shortcut icon" href="/images/favicon.png" />
+        <link href="/css/reset.css" rel="stylesheet" type="text/css" />
+        <link href="/css/base.css" rel="stylesheet" type="text/css" />
+        <link href="/css/color.css" rel="stylesheet" type="text/css" />
+
+        <!--script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'INSERT_ACCOUNT_HERE']);
+            _gaq.push(['_setDomainName', 'INSERT_DOMAIN_HERE']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script-->
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="title">
+                <h1><a href="/">Apache Accumulo Release Notes</a></h1>
+            </div>
+        </div>
+
+        <div id="content">
+{{ content }}
+            <div id="footer">
+                <div id="copyright">
+                    &copy; 2014 Apache Software Foundation
+                </div>
+                <div id="license">
+                    <a rel="license" href="http://www.apache.org/licenses/LICENSE-2.0">Apache Software License version 2</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
