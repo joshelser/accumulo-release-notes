@@ -4,14 +4,14 @@ title: Apache Accumulo Release Notes
 ---
             <div id="index_content">
                 <div id="release_notes">
-                {% for post in paginator.posts %}
+                {% for release_note in paginator.posts %}
                     <div class="release_note">
                         <div class="version">
-                            <h3 class="version"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                            <h3 class="version"><a href="{{ release_note.url }}">{{ release_note.title }}</a></h3>
                         </div>
 
                         <div class="content">
-                            {{ post.content }}
+                            {{ release_note.content }}
                         </div>
                     </div>
                 {% endfor %}
